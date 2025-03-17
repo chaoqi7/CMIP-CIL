@@ -9,7 +9,7 @@ A cross-modal benchmark for image-point class incremental learning.
 ## 🎨IP-CIL
 - **Task 1: learns to classify objects in images, testing with point-cloud-based classifications. Task 2: learn new objects in images, testing point cloud ones in the current and former classes—the same in the following tasks.**
  
-![screenshot](https://hv.z.wiki/autoupload/20250317/H6HN/930X876/IP-CIL.png)
+<img src="https://hv.z.wiki/autoupload/20250317/H6HN/930X876/IP-CIL.png" width="400" />
 
 - **[Data Samples](./BSA_Dataset)**
 
