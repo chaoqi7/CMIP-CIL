@@ -2,12 +2,12 @@
 A cross-modal benchmark for image-point class incremental learning.
 
 ## 📖Content
-- **[Task of image-point class incremental learning (IP-CIL)](#Task of IP-CIL)**
+- **[Task of image-point class incremental learning (IP-CIL)](#IP-CIL)**
 - **[Pretrained Models](#Pretrained-Models)**
 - **[Code](#Code)**
 
-## 🎨Task of IP-CIL
-- **The Dataset Creation Process**
+## 🎨IP-CIL
+- **Task 1: learns to classify objects in images, testing with point-cloud-based classifications. Task 2: learn new objects in images, testing point cloud ones in the current and former classes—the same in the following tasks.**
  
 ![screenshot](https://cdn.z.wiki/autoupload/20241126/8crj/1345X976/BSA-Dataset-fuben.png)
 
