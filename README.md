@@ -67,4 +67,4 @@ A cross-modal benchmark for image-point class incremental learning.
 
   The following repos provide helpful components/functions in our work: <br>
   [PyCIL](https://github.com/G-U-N/PyCIL) <br>
-  [POINT-BERT](https://github.com/Julie-tang00/Point-BERT)
+  [MVTN](https://github.com/ajhamdi/MVTN)
