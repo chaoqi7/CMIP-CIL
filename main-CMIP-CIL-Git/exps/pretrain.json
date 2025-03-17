@@ -1,0 +1,15 @@
+{
+    "prefix": "reproduce",
+    "dataset": "m_modelnet40",
+    "memory_size": 800,
+    "memory_per_class": 20,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 8,
+    "increment": 8,
+    "model_name": "pretrain",
+    "convnet_type": "cross_model",
+    "device": ["0"],
+    "seed": [1993]
+}
+

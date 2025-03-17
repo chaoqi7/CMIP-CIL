@@ -1,0 +1,15 @@
+{
+    "prefix": "reproduce",
+    "dataset": "modelnet40",
+    "memory_size": 800,
+    "memory_per_class": 20,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 4,
+    "increment": 4,
+    "model_name": "icarl",
+    "convnet_type": "pointnet",
+    "device": ["0"],
+    "seed": [0]
+}
+
