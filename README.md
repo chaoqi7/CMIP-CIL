@@ -43,10 +43,10 @@ A cross-modal benchmark for image-point class incremental learning.
   
 ## 💼DataSet
 
-- **Run Experiment**
+- **The multimodal dataset come from image rendering on the original point clouds.**
   
   The ShapeNet image rendering starts with [ShapeNet_RenderLoader.py](./Image-Point%20Contrastive%20Learning_Git/ShapeNet_RenderLoader.py). <br>
-  The ModelNet image rendering starts with [ModelNet_RenderLoader.json](./Image-Point%20Contrastive%20Learning_Git/ModelNet_RenderLoader.pyn).
+  The ModelNet image rendering starts with [ModelNet_RenderLoader.json](./Image-Point%20Contrastive%20Learning_Git/ModelNet_RenderLoader.py).
 
 ## 💻Code
 
