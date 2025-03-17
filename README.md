@@ -2,11 +2,11 @@
 A cross-modal benchmark for image-point class incremental learning.
 
 ## 📖Content
-- **[BSA Dataset](#BSA-Dataset)**
+- **[Task of image-point class incremental learning (IP-CIL)](#Task of IP-CIL)**
 - **[Pretrained Models](#Pretrained-Models)**
 - **[Code](#Code)**
 
-## 🎨BSA Dataset
+## 🎨Task of IP-CIL
 - **The Dataset Creation Process**
  
 ![screenshot](https://cdn.z.wiki/autoupload/20241126/8crj/1345X976/BSA-Dataset-fuben.png)
