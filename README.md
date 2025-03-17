@@ -41,14 +41,20 @@ A cross-modal benchmark for image-point class incremental learning.
 
 <img src="https://cdn.z.wiki/autoupload/20250317/7jHu/806X528/result2-ab-shapenet.PNG" width="450" />
   
+## 💼DataSet
+
+- **Run Experiment**
+  
+  The ShapeNet image rendering starts with [ShapeNet_RenderLoader.py](./Image-Point%20Contrastive%20Learning_Git/ShapeNet_RenderLoader.py). <br>
+  The ModelNet image rendering starts with [ModelNet_RenderLoader.json](./Image-Point%20Contrastive%20Learning_Git/ModelNet_RenderLoader.pyn).
+
 ## 💻Code
 
 - **Run Experiment**
   
-  The continual learning starts with [main_3DShape.py](./main_3DShape.py). <br>
+  The continual learning starts with [main_3DShape.py](./Image-Point%20Contrastive%20Learning_Git/ModelNet_RenderLoader.py). <br>
   The experiment configurations can be set in [cil_config.json](./exps/cil_config.json).
-
-
+  
 - **Environment**
   
   python 3.8 <br>
