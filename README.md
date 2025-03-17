@@ -11,14 +11,9 @@ A cross-modal benchmark for image-point class incremental learning.
  
 <img src="https://hv.z.wiki/autoupload/20250317/H6HN/930X876/IP-CIL.png" width="400" />
 
-- **[Data Samples](./BSA_Dataset)**
-
-- **[Dataset Generation Code](./BSA_Generation.py)**
   
 ## 🌈Pretrained Models
-**The pre-trained models are available** [[LINK](https://pan.baidu.com/s/1DapMrrIDY0x_xIL1hpruqg)] (CODE: i6tf).
-- The dVAE model is embedded in the tokenizer to supervise the predicted tokens in the pre-training stage.
-- The Point-bert model is embedded in the backbone for continual learning.
+**The pre-trained models are available** [[LINK](https://pan.baidu.com/s/1D1UzXUP5o-7L-tmTi6ONHA )] (CODE: 7g35).
 
 ## 🔍Experiments
 
