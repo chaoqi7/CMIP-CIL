@@ -66,7 +66,5 @@ A cross-modal benchmark for image-point class incremental learning.
 - **Acknowledgments**
 
   The following repos provide helpful components/functions in our work: <br>
-  [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT) <br>
   [PyCIL](https://github.com/G-U-N/PyCIL) <br>
-  [POINT-BERT](https://github.com/Julie-tang00/Point-BERT) <br>
-  [CosineLinear](https://github.com/hshustc/CVPR19_Incremental_Learning/blob/master/cifar100-class-incremental/modified_linear.py)
+  [POINT-BERT](https://github.com/Julie-tang00/Point-BERT)
