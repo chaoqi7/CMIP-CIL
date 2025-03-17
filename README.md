@@ -9,38 +9,37 @@ A cross-modal benchmark for image-point class incremental learning.
 ## 🎨IP-CIL
 - **Task 1: learns to classify objects in images, testing with point-cloud-based classifications. Task 2: learn new objects in images, testing point cloud ones in the current and former classes—the same in the following tasks.**
  
-<img src="https://hv.z.wiki/autoupload/20250317/H6HN/930X876/IP-CIL.png" width="400" />
+<img src="https://hv.z.wiki/autoupload/20250317/H6HN/930X876/IP-CIL.png" width="450" />
 
   
-## 🌈Pretrained Models
+## 🌈Image-Point Contrastive Learning Models
 **The pre-trained models are available** [[LINK](https://pan.baidu.com/s/1D1UzXUP5o-7L-tmTi6ONHA )] (CODE: 7g35).
 
 ## 🔍Experiments
 
-- **Comparisons on ShapeNet55** (18 exemplar samples per class)
+- Comparisons on m-MN40-*Inc*.4
 
-| Model | ${\mathcal{A}_b}$ | $\bar{\mathcal{A}} $ |
+| Model | ${\mathcal{A}_B}$ | $\bar{\mathcal{A}} $ |
 |--|--|--|
-| LwF | 39.5 | 63.4 |
-| iCaRL|44.6| 69.5 |
-| RPS-Net | 63.5 | 78.4 |
-| BiC | 64.2 | 78.8 |
-| I3DOL | 67.3 | 81.6 |
-| InOR-Net | 69.4 | 83.7 |
-| Ours | **83.4** | **89.3** |
+| iCaRL | 25.4| 48.4 |
+| WA | 20.4 | 40.9 |
+| PODNet | 29.0 | 51.9 |
+| SimpleCIL | 36.1 | 50.2 |
+| Ours | **50.8** | **63.4** |
 
-![screenshot](https://cdn.z.wiki/autoupload/20241126/alYG/587X392/Experiment1.png)
+<img src="https://hv.z.wiki/autoupload/20250317/2B4F/1005X630/result1-ab-modelnet.PNG" width="450" />
 
-- **Comparisons on ShapeNet55** (exemplar-free)
+- Comparisons on m-SN55-*Inc*.6
 
-| Model | ${\mathcal{A}_b}$ | $\bar{\mathcal{A}} $ |
+| Model | ${\mathcal{A}_B}$ | $\bar{\mathcal{A}} $ |
 |--|--|--|
-| FETRIL | 55.0 | 65.4 |
-| 3D-EASE1 |52.2| 68.1 |
-| 3D-EASE2 | 68.4 | 82.4 |
-| Ours | **70.1** | **84.1** |
+| iCaRL | 38.5| 57.9 |
+| WA | 24.5 | 43.1 |
+| PODNet | 31.1 | 55.2 |
+| SimpleCIL | 27.3 |  48.9 |
+| Ours | **41.9** | **61.8** |
 
-![screenshot](https://cdn.z.wiki/autoupload/20241126/qhVF/615X416/Experiment2.png)
+<img src="https://cdn.z.wiki/autoupload/20250317/7jHu/806X528/result2-ab-shapenet.PNG" width="450" />
   
 ## 💻Code
 
